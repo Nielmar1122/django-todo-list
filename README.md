@@ -29,35 +29,13 @@ A simple Todo List Web Application built with Django that allows users to manage
 
 ## 📂 Project Structure
 django-todo-list/
-│
-├── todo/ # Main application directory
-│ ├── migrations/ # Database migrations
-│ ├── templates/ # HTML templates
-│ │ └── todo/
-│ │ ├── index.html # Home page
-│ │ ├── add_task.html # Add task page
-│ │ ├── edit_task.html # Edit task page
-│ │ └── tasks.html # Task list page
-│ ├── static/ # Static files (CSS, JS, images)
-│ │ └── css/
-│ │ └── style.css # Custom styles
-│ ├── init.py
-│ ├── admin.py # Admin panel configuration
-│ ├── apps.py # App configuration
-│ ├── models.py # Database models
-│ ├── urls.py # URL routing
-│ └── views.py # View logic
-│
-├── django_todo/ # Project configuration
-│ ├── init.py
-│ ├── settings.py # Project settings
-│ ├── urls.py # Project URL configuration
-│ └── wsgi.py
-│
-├── db.sqlite3 # SQLite database file
-├── manage.py # Django management script
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+│── todo/
+│── templates/
+│── static/
+│── db.sqlite3
+│── manage.py
+│── requirements.txt
+└── README.md
 ## ⚙️ Installation
 
 ### Prerequisites
