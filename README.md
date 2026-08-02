@@ -1,33 +1,34 @@
 # 📝 Django Todo List
 
-A simple Todo List Web Application built with Django that allows users to manage their daily tasks efficiently. This project demonstrates the fundamentals of Django, including models, views, templates, CRUD operations, and database integration.
+A simple **Todo List Web Application** built with **Django** that allows users to manage their daily tasks efficiently. This project demonstrates the fundamentals of Django, including models, views, templates, CRUD operations, and database integration.
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Django](https://img.shields.io/badge/Django-4.0+-green.svg)
-![SQLite](https://img.shields.io/badge/SQLite-3-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+---
 
 ## 🚀 Features
 
-- ✅ **Add new tasks** - Create tasks with titles and descriptions
-- 📋 **View all tasks** - See all your tasks in one organized list
-- ✏️ **Edit existing tasks** - Update task details anytime
-- ✅ **Mark tasks as completed** - Track your progress
-- 🗑️ **Delete tasks** - Remove tasks you no longer need
-- 💾 **SQLite database integration** - Lightweight and easy to use
-- 🎨 **Simple and responsive user interface** - Works on all devices
-- 🔍 **Search functionality** - Find tasks quickly (optional)
-- 📅 **Due dates** - Set deadlines for your tasks (optional)
+- ➕ Add new tasks
+- 📋 View all tasks
+- ✏️ Edit existing tasks
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- 💾 SQLite database integration
+- 🎨 Simple and responsive user interface
+
+---
 
 ## 🛠️ Built With
 
-- [Python 3](https://www.python.org/) - Programming Language
-- [Django](https://www.djangoproject.com/) - Web Framework
-- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML) - Structure
-- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) - Styling
-- [SQLite3](https://www.sqlite.org/) - Database
+- Python 3
+- Django
+- HTML5
+- CSS3
+- SQLite3
+
+---
 
 ## 📂 Project Structure
+
+```
 django-todo-list/
 │── todo/
 │── templates/
@@ -36,69 +37,112 @@ django-todo-list/
 │── manage.py
 │── requirements.txt
 └── README.md
+```
+
+---
+
 ## ⚙️ Installation
 
-### Prerequisites
-- Python 3.8 or higher installed
-- pip (Python package manager)
+1. Clone the repository
 
-### Step-by-Step Setup
-
-1. **Clone the repository**
 ```bash
-///
+git clone https://github.com/syronleecabagua-blee/django-todo-list.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd django-todo-list
+```
+
+3. Create a virtual environment (optional but recommended)
+
+**Windows**
+
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
-📸 Screenshots
-Home Page
-https://screenshots/home.png
+**Mac/Linux**
 
-Add Task
-https://screenshots/add-task.png
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
-Edit Task
-https://screenshots/edit-task.png
+4. Install dependencies
 
-Completed Tasks
-https://screenshots/completed-tasks.png
+```bash
+pip install -r requirements.txt
+```
 
-Note: Create a screenshots folder in your project root and add your screenshots there.
+5. Apply migrations
 
-🎯 Learning Objectives
+```bash
+python manage.py migrate
+```
+
+6. Start the development server
+
+```bash
+python manage.py runserver
+```
+
+7. Open your browser and visit
+
+```
+http://127.0.0.1:8000/
+```
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots of your application here.
+
+Example:
+
+- Home Page
+- Add Task
+- Edit Task
+- Completed Tasks
+
+---
+
+## 🎯 Learning Objectives
+
 This project helped me practice:
 
-✅ Django Project Structure and Organization
+- Django Project Structure
+- Django Models
+- URL Routing
+- Function-Based Views
+- CRUD Operations
+- HTML Templates
+- Database Management with SQLite
+- Django Admin Panel
 
-✅ Django Models and Database Design
+---
 
-✅ URL Routing and View Functions
+## 🤝 Contributing
 
-✅ Function-Based Views vs Class-Based Views
+Contributions, issues, and feature requests are welcome!
 
-✅ CRUD Operations (Create, Read, Update, Delete)
+Feel free to fork this repository and submit a pull request.
 
-✅ HTML Templates and Template Inheritance
+---
 
-✅ Static Files Management
+## 👨‍💻 Author
 
-✅ Database Management with SQLite
+**Syron Lee Cabagua**
 
-✅ Django Admin Panel Customization
+GitHub: https://github.com/syronleecabagua-blee
 
-✅ Form Handling and Validation
+---
 
-✅ Environment Variables and Security
+## ⭐ Support
 
-✅ Git and Version Control
+If you found this project helpful, please consider giving it a ⭐ on GitHub!
 
-🔧 Future Improvements
-□ User authentication and registration
-□ Task categories/tags
-□ Priority levels (High, Medium, Low)
-□ Due dates and reminders
-□ Search and filter functionality
-□ REST API using Django REST Framework
-□ Drag-and-drop reordering
-□ Email notifications for due tasks
-
+It motivates me to continue learning and building more projects.
