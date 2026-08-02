@@ -135,9 +135,9 @@ Feel free to fork this repository and submit a pull request.
 
 ## 👨‍💻 Author
 
-**Syron Lee Cabagua**
+**Nielmar Porras Tutesora**
 
-GitHub: https://github.com/syronleecabagua-blee
+GitHub: https://github.com/Nielmar1122
 
 ---
 
